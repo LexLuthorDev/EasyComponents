@@ -1,0 +1,21 @@
+### Passo 4: Teste Para testar a biblioteca, você pode criar um arquivo HTML
+separado que inclua o botão EasyComponents. Aqui está um exemplo: ####
+`index.html` ```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste EasyComponents</title>
+    <link rel="stylesheet" href="src/button/button.css" />
+  </head>
+  <body>
+    <h1>Teste EasyComponents</h1>
+
+    <!-- Inclua o botão EasyComponents -->
+    <div class="easy-button">Click Me</div>
+
+    <!-- Inclua o script do botão -->
+    <script src="src/button/button.js"></script>
+  </body>
+</html>
